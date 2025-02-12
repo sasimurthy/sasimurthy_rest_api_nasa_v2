@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APOD - Sasi</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <div class="container">
+        <h1>NASA Picture of the Day</h1>
+
+        <!-- Date Picker and Button -->
+        <div class="date-picker-container">
+            <label for="date-picker">Select a Date:</label>
+            <input type="date" id="date-picker">
+            <button id="fetch-button">Get APOD</button>
+        </div>
+
+        <!-- Display APOD content -->
+        <h2 id="potd-title">Astronomy Picture of the Day</h2>
+        <p id="potd-desc"></p>
+        <div id="potd-media"></div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div id="gallery" class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <!-- Gallery images -->
+            <div class="gallery-item">
+                <img src="assets/images/nasa-CpHNKNRwXps-unsplash.jpg" alt="Gallery Image 1">
+                <p>NASA Space Centre</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="Gallery Image 2">
+                <p>Earth in Night</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/nasa-V4ZksNimxLk-unsplash.jpg" alt="Gallery Image 3">
+                <p>Amazing Moon</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/nasa-yZygONrUBe8-unsplash.jpg" alt="Gallery Image 4">
+                <p>Weather Monitor</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container">
+        <h2>About NASA APOD</h2>
+        <p>The Astronomy Picture of the Day (APOD) is a daily public service provided by NASA that features a different image or photograph of our universe, along with a brief explanation written by a professional astronomer. The goal is to showcase the beauty and mystery of the universe, giving everyone a chance to learn more about space and the cosmos.</p>
+        <p>This website is an interactive platform where you can view NASA's Astronomy Picture of the Day, explore the history of space imagery, and dive deeper into the fascinating world of astronomy.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 NASA APOD - All Rights Reserved</p>
+            <p>Developed by Sasimurthy</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

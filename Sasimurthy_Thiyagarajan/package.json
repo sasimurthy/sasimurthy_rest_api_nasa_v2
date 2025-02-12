@@ -1,0 +1,17 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=public"
+  },
+  "keywords": [],
+  "author": "Sasimurthy",
+  "license": "ISC",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
+
